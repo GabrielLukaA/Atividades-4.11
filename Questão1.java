@@ -2,7 +2,7 @@ package Java;
 
 import java.util.Scanner;
 
-public class Quest„o1 {
+public class Quest√£o1 {
 
 	public static void main(String[] args) {
 		double[] totalVendas = new double[4];
@@ -23,7 +23,7 @@ public class Quest„o1 {
 			nome[i] = in.next();
 			System.out.println("Informe a sua quantia de vendas: ");
 			totalVendas[i] = in.nextDouble();
-			System.out.println("Informe o seu percentual de comiss„o: ");
+			System.out.println("Informe o seu percentual de comiss√£o: ");
 			comissao[i] = in.nextDouble();
 
 			totalVendasVendedores += totalVendas[i];
@@ -46,19 +46,21 @@ public class Quest„o1 {
 			
 		}
 
-		System.out.println("vendedor " + nome[0] + " ir· receber " + quantiaReceber[0] + " reais");
-		System.out.println("vendedor " + nome[1] + " ir· receber " + quantiaReceber[1] + " reais");
-		System.out.println("vendedor " + nome[2] + " ir· receber " + quantiaReceber[2] + " reais");
-		System.out.println("vendedor " + nome[3] + " ir· receber " + quantiaReceber[3] + " reais");
+		System.out.println("vendedor " + nome[0] + " ir√° receber " + quantiaReceber[0] + " reais");
+		System.out.println("vendedor " + nome[1] + " ir√° receber " + quantiaReceber[1] + " reais");
+		System.out.println("vendedor " + nome[2] + " ir√° receber " + quantiaReceber[2] + " reais");
+		System.out.println("vendedor " + nome[3] + " ir√° receber " + quantiaReceber[3] + " reais");
+		System.out.println("vendedor " + nome[4] + " ir√° receber " + quantiaReceber[3] + " reais");
+		System.out.println("vendedor " + nome[5] + " ir√° receber " + quantiaReceber[3] + " reais");
+		System.out.println("vendedor " + nome[6] + " ir√° receber " + quantiaReceber[3] + " reais");
+		System.out.println("vendedor " + nome[7] + " ir√° receber " + quantiaReceber[3] + " reais");
+		System.out.println("vendedor " + nome[8] + " ir√° receber " + quantiaReceber[3] + " reais");
+		System.out.println("vendedor " + nome[9] + " ir√° receber " + quantiaReceber[3] + " reais");
 
-		System.out.println("O total de vendas de todos os vendedores foi de R$ "+totalVendasVendedores);
-		System.out.println("O maior ganho de comiss„o foi do vendedor "+nomeMaiorComissao+" com uma quantia a receber de R$ "+maiorComissao);
-		System.out.println("O menor ganho de comiss„o foi do vendedor "+nomeMenorComissao+" com uma quantia a receber de R$ "+menorComissao);
 		
-		/*
-		 * System.out.println(quantiaReceber[4]); System.out.println(quantiaReceber[5]);
-		 * System.out.println(quantiaReceber[6]); System.out.println(quantiaReceber[7]);
-		 * System.out.println(quantiaReceber[8]); System.out.println(quantiaReceber[9]);
-		 */
+		System.out.println("O total de vendas de todos os vendedores foi de R$ "+totalVendasVendedores);
+		System.out.println("O maior ganho de comiss√£o foi do vendedor "+nomeMaiorComissao+" com uma quantia a receber de R$ "+maiorComissao);
+		System.out.println("O menor ganho de comiss√£o foi do vendedor "+nomeMenorComissao+" com uma quantia a receber de R$ "+menorComissao);
+		
 	}
 }
