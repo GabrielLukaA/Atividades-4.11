@@ -50,12 +50,12 @@ public class Questão1 {
 		System.out.println("vendedor " + nome[1] + " irá receber " + quantiaReceber[1] + " reais");
 		System.out.println("vendedor " + nome[2] + " irá receber " + quantiaReceber[2] + " reais");
 		System.out.println("vendedor " + nome[3] + " irá receber " + quantiaReceber[3] + " reais");
-		System.out.println("vendedor " + nome[4] + " irá receber " + quantiaReceber[3] + " reais");
-		System.out.println("vendedor " + nome[5] + " irá receber " + quantiaReceber[3] + " reais");
-		System.out.println("vendedor " + nome[6] + " irá receber " + quantiaReceber[3] + " reais");
-		System.out.println("vendedor " + nome[7] + " irá receber " + quantiaReceber[3] + " reais");
-		System.out.println("vendedor " + nome[8] + " irá receber " + quantiaReceber[3] + " reais");
-		System.out.println("vendedor " + nome[9] + " irá receber " + quantiaReceber[3] + " reais");
+		System.out.println("vendedor " + nome[4] + " irá receber " + quantiaReceber[4] + " reais");
+		System.out.println("vendedor " + nome[5] + " irá receber " + quantiaReceber[5] + " reais");
+		System.out.println("vendedor " + nome[6] + " irá receber " + quantiaReceber[6] + " reais");
+		System.out.println("vendedor " + nome[7] + " irá receber " + quantiaReceber[7] + " reais");
+		System.out.println("vendedor " + nome[8] + " irá receber " + quantiaReceber[8] + " reais");
+		System.out.println("vendedor " + nome[9] + " irá receber " + quantiaReceber[9] + " reais");
 
 		
 		System.out.println("O total de vendas de todos os vendedores foi de R$ "+totalVendasVendedores);
